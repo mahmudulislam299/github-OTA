@@ -10,7 +10,7 @@ int status = WL_IDLE_STATUS;
 int incomingByte;
 
 String FirmwareVer = {
-    "3.0"
+    "5.0"
 };
 #define URL_fw_Version "https://raw.githubusercontent.com/mahmudulislam299/github-OTA/main/Github_OTA_test/bin-version.txt"
 #define URL_fw_Bin "https://raw.githubusercontent.com/mahmudulislam299/github-OTA/main/Github_OTA_test/Github_OTA_test.ino.esp32.bin"
@@ -42,7 +42,7 @@ void loop() {
     delay(1000);
     Serial.print(" Active Firmware Version:");
     Serial.println(FirmwareVer);
-    Serial.println("ok");
+    Serial.println("praniSheba");
 
     if (WiFi.status() != WL_CONNECTED) {
         reconnect();
