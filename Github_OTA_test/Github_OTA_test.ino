@@ -12,10 +12,8 @@ int incomingByte;
 String FirmwareVer = {
     "3.0"
 };
-#define URL_fw_Version "https://raw.githubusercontent.com/mahmudulislam299/github-OTA/main/bin-version.txt"
-#define URL_fw_Bin "https://raw.githubusercontent.com/mahmudulislam299/github-OTA/main/fw.bin"
-//#define URL_fw_Version "https://raw.githubusercontent.com/AhmadMahi/QuibbleUpdate/master/Quibbleupdate/bin-version.txt"
-//#define URL_fw_Bin "https://raw.githubusercontent.com/AhmadMahi/QuibbleUpdate/master/Quibbleupdate/fw.bin"
+#define URL_fw_Version "https://raw.githubusercontent.com/mahmudulislam299/github-OTA/main/Github_OTA_test/bin-version.txt"
+#define URL_fw_Bin "https://raw.githubusercontent.com/mahmudulislam299/github-OTA/main/Github_OTA_test/fw.bin"
 
 void setup() {
 
