@@ -13,7 +13,7 @@ String FirmwareVer = {
     "3.0"
 };
 #define URL_fw_Version "https://raw.githubusercontent.com/mahmudulislam299/github-OTA/main/Github_OTA_test/bin-version.txt"
-#define URL_fw_Bin "https://raw.githubusercontent.com/mahmudulislam299/github-OTA/main/Github_OTA_test/fw.bin"
+#define URL_fw_Bin "https://raw.githubusercontent.com/mahmudulislam299/github-OTA/main/Github_OTA_test/Github_OTA_test.ino.esp32.bin"
 
 void setup() {
 
