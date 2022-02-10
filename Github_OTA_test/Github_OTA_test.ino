@@ -59,7 +59,8 @@ void loop() {
     }
 }
 
-void reconnect() {
+void reconnect() 
+{
     int i = 0;
     // Loop until we're reconnected
     status = WiFi.status();
